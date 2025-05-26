@@ -9,13 +9,13 @@ hero:
   image:
     src: /background.svg
     alt: 背景图片
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  # actions:
+  #   - theme: brand
+  #     text: Markdown Examples
+  #     link: /markdown-examples
+  #   - theme: alt
+  #     text: API Examples
+  #     link: /api-examples
 
 features:
   - title: 🥑 阅读

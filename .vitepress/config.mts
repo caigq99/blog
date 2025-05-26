@@ -11,10 +11,12 @@ export default defineConfig({
     siteTitle: '博客记录',
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
       {
         text: '前端',
-        items: [],
+        items: [
+          {text: '如何使用Cloudflare搭建一个无限邮箱', link: '/frontend/如何使用Cloudflare搭建一个无限邮箱'},
+          {text: '在YCursor中使用无限邮箱', link: '/frontend/在YCursor中使用无限邮箱'},
+        ],
       },
       {
         text: '后端',
@@ -35,11 +37,18 @@ export default defineConfig({
     ],
 
     sidebar: [
+      // {
+      //   text: 'Examples',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' },
+      //   ],
+      // },
       {
-        text: 'Examples',
+        text: '前端',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: '如何使用Cloudflare搭建一个无线邮箱', link: '/frontend/如何使用Cloudflare搭建一个无限邮箱' },
+          { text: '在YCursor中使用无限邮箱', link: '/frontend/在YCursor中使用无限邮箱' },
         ],
       },
       {
