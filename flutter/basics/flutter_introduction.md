@@ -32,7 +32,7 @@ Flutter 拥有活跃的开发者社区，提供了大量的第三方库和插件
 
 Flutter 架构采用分层设计，主要包括以下几个层次：
 
-**Flutter 架构图**：Flutter 架构主要分为 Framework 层、Engine 层和 Embedder 层，从上到下依次提供了不同级别的抽象和功能。
+![Flutter架构图](/images/flutter_architecture.svg)
 
 ### 1. Framework 层
 
